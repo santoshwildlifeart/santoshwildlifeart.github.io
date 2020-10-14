@@ -774,7 +774,7 @@
  font-family: 'Montserrat Alternates', sans-serif;
 }
 .blog, .blog * {
- font-family: 'EB Garamond', serif;
+ font-family: 'EB Garamond', 'Garamond', serif;
 }
 .btags {
  font-size: smaller;
