@@ -1,0 +1,35 @@
+<!-- Image gallery snippet. Replace the image names with real image file names of appropriate resolutions. 
+       Also plug in real values for 'alt', 'width', 'height', and English/Latin names inside figcaption 
+       Nothing else needs to be changed. First template is for portrait images while the second one is for 
+       landscape images. 
+   -->
+<div class="imggrid">
+ <a href="#" class="imglink">
+  <figure class="fig">
+   <picture class="pict">
+    <source srcset="portimg1x.avif 1x, portimg2x.avif 2x, portimg3x.avif 3x" type="image/avif">
+    <source srcset="portimg1x.webp 1x, portimg2x.webp 2x, portimg3x.webp 3x" type="image/webp">
+    <source srcset="portimg1x.jpg 1x, portimg2x.jpg 2x, portimg3x.jpg 3x" type="image/jpeg">
+    <img src="portimg2x.jpg" alt="alt text" width="" height="" loading="lazy" class="image_port">
+   </picture>
+   <figcaption class="figcap">
+    <div class="cap_engname"></div>
+    <div class="cap_latname"></div>
+   </figcaption>
+  </figure>
+ </a>
+ <a href="#" class="imglink">
+  <figure class="fig">
+   <picture class="pict">
+    <source srcset="landimg1x.avif 1x, landimg2x.avif 2x, landimg3x.avif 3x" type="image/avif">
+    <source srcset="landimg1x.webp 1x, landimg2x.webp 2x, landimg3x.webp 3x" type="image/webp">
+    <source srcset="landimg1x.jpg 1x, landimg2x.jpg 2x, landimg3x.jpg 3x" type="image/jpeg">
+    <img src="landimg2x.jpg" alt="alt text" width="" height="" loading="lazy" class="image_land">
+   </picture>
+   <figcaption class="figcap">
+    <div class="cap_engname"></div>
+    <div class="cap_latname"></div>
+   </figcaption>
+  </figure>
+ </a>
+</div>

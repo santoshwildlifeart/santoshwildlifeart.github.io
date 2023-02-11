@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Julius+Sans+One&family=Montserrat+Alternates:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+ <meta name="color-scheme" content="light dark">
+ <link rel="stylesheet" href="/style.css">
+
+ <title>Blog | Santosh Wildlife Art</title>
+ <meta name="description" content="desc-placeholder">
+ <link rel="canonical" href="https://santoshwildlifeart.com/blog/">
+
+ <!-- Page specific banner image. Comment out if using default banner for this page. -->
+ <!--<style>
+  .banner {
+   background-position: center;
+
+   /* Version of background-image that does NOT use the new, partly supported (-webkit-)image-set()
+      Uncomment this & comment out the newer version if needed. Also make same change in CSS file 
+      for the default fallback banner */
+   /*background-image: linear-gradient(to top, var(--bg) 0%, transparent 5%), 
+   linear-gradient(to bottom, var(--bg) 0%, transparent 3%), url(banner.jpg);*/
+
+   /* Not yet using image-set() because it doesn't work wit var() values inside it, in Chrome.
+      Until Chrome umprefixes -webkit-image-set(), keep using it across all browsers since all of them 
+      support the prefixed version.*/
+   background-image: linear-gradient(to top, var(--bg) 0%, transparent 5%),
+    linear-gradient(to bottom, var(--bg) 0%, transparent 3%),
+    -webkit-image-set(url(banner1x.jpg) 1x, url(banner2x.jpg) 2x, url(banner3x.jpg) 3x);
+  }
+
+ </style>-->
+</head>
+
+<body>
+ <header class="site_header">
+  <div class="letterhead">
+   <div class="site_name"><a href="/">Santosh Wildlife Art</a></div>
+   <nav class="site_menu">
+    <ol>
+     <li><a href="/about/">About</a></li>
+     <li><a href="/gallery/">Gallery</a></li>
+     <li><a href="/blog/" aria-current="page">Blog</a></li>
+    </ol>
+   </nav>
+  </div>
+  <div class="banner"></div>
+ </header>
+
+ <main class="page_content">
+  <h1>Blog</h1>
+ </main>
+
+ <footer class="site_footer">
+  <address class="social">
+   <ul>
+    <li><a href="https://www.facebook.com/SantoshWildlifeArt/" target="_blank" rel="noopener">twitter</a></li>
+    <li><a href="https://twitter.com/santoshwildart" target="_blank" rel="noopener">facebook</a></li>
+    <li><a href="mailto:santoshwildlifeart@gmail.com" target="_blank" rel="noopener">email</a></li>
+   </ul>
+  </address>
+  <form role="search" action="https://www.google.com/search" target="_blank" class="srchform">
+   <input type="hidden" name="sitesearch" value="santoshwildlifeart.com">
+   <label for="sbox">
+    <input type="search" name="q" required role="searchbox" aria-label="Search the site"
+           placeholder="Type your search, tap Go" aria-placeholder="Type your search, then press Enter"
+           title="Enter keyword or phrase to search the site" id="sbox" class="srchbox">
+    <button type="submit" class="srch_submit">Go</button>
+   </label>
+  </form>
+  <div><small><a href="/copyright/">&copy;&nbsp;2022 Santosh Krishnan. All rights reserved.</a></small></div>
+ </footer>
+</body>
+
+</html>
