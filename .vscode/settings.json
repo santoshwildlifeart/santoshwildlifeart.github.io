@@ -2,7 +2,7 @@
     "editor.tabSize": 2,
     "editor.renderWhitespace": "all",
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Solarized Light",
     "workbench.preferredHighContrastColorTheme": "Default High Contrast",
     "css.format.spaceAroundSelectorSeparator": true,
     "css.lint.boxModel": "warning",
@@ -28,5 +28,6 @@
     "emmet.showAbbreviationSuggestions": true,
     "emmet.preferences": {},
     "emmet.showExpandedAbbreviation": "always",
-    "editor.snippetSuggestions": "bottom"
+    "editor.snippetSuggestions": "bottom",
+    "workbench.preferredLightColorTheme": "Solarized Light"
 }
