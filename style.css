@@ -1,0 +1,268 @@
+:root {
+  --bg-dark: rgb(40, 40, 40);
+  --bg-light: snow;
+  --bg: var(--bg-light);
+  --txt-dark: whitesmoke;
+  --txt-light: black;
+  --txt: var(--txt-light);
+  --link-dark: floralwhite;
+  --link-light: black;
+  --link: var(--link-light);
+  --shadow-dark: lightgoldenrodyellow;
+  --shadow-light: darkgoldenrod;
+  --shadow: var(--shadow-light);
+  --font-header: 'Merienda', cursive;
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Fira Sans', sans-serif;
+  --font-caption: 'Merienda', cursive;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  color: var(--txt);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+a {
+  color: var(--link);
+}
+
+a:hover, a:focus {
+  text-decoration-style: double;
+}
+
+#sitehdr a, #siteftr a {
+  text-decoration: none;
+}
+
+#sitehdr {
+  font-family: var(--font-header);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1em 0;
+}
+
+#sitename {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding: 0.25em;
+}
+
+.hdg {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+.hdg-h1 {
+  font-size: 1.5em;
+  margin: 1.2em 0;
+}
+.hdg-h2 {
+  font-size: 1.3em;
+}
+.hdg-h3 {
+  font-size: 1.15em;
+}
+.hdg-h4 {
+  font-size: 1em;
+}
+.hdg-h5 {
+  font-size: 0.85em;
+}
+.hdg-h6 {
+  font-size: 0.7em;
+}
+
+.hdg-latname {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hdg-media {
+  font-size: 0.75em;
+  font-weight: 300;
+}
+
+#main-content {
+  margin-top: 2em;
+  margin-bottom: 7em;
+}
+
+.imggrid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  gap: 7em 1em;
+  margin: 1.5em 0;
+}
+
+.imglink {
+  text-decoration: none;
+}
+
+.imglink:hover .image, .imglink:focus .image {
+  filter: drop-shadow(0.2em 0.2em 0.75em var(--shadow));
+}
+
+.fig {
+  margin: 0;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.figcap {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5em;
+  padding: 1.75em 0 0.75em;
+}
+
+.figcap-land {
+  max-width: 600px;
+}
+
+.figcap-port {
+  max-width: 300px;
+}
+
+.cap-title {
+  font-family: var(--font-caption);
+  font-size: 1.1em;
+}
+
+.cap-media {
+  font-size: 0.9em;
+  font-weight: 300;
+}
+
+.aligncenter {
+  text-align: center;
+}
+
+.seeall {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3.5em 0 5em;
+}
+
+.seeall > a {
+  padding: 1em 5em;
+  text-decoration: none;
+  border: 1px solid var(--txt);
+  border-radius: 5px;
+}
+
+.seeall > a:hover, .seeall > a:focus {
+  box-shadow: 0.2em 0.2em 0.75em var(--shadow);
+}
+
+.elsewhere {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5em 2em;
+  margin: 2em 0;
+}
+
+#ftrnav {
+  font-size: 1.2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1em 2.5em;
+  margin: 2em 0;
+}
+
+#smallprint {
+  text-align: center;
+  font-size: 0.75em;
+  font-weight: 200;
+}
+
+#totop {
+  font-size: 2.5em;
+  text-align: right;
+  margin-right: 0.25em;
+}
+
+#totop > a {
+  display: inline-block;
+  padding: 0 0.2em;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: var(--bg-dark);
+    --txt: var(--txt-dark);
+    --link: var(--link-dark);
+    --shadow: var(--shadow-dark);
+  }
+}
+
+@media (min-width: 800px) {
+  body {
+    margin: 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 1.1em;
+  }
+  .txt {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+@media (min-width: 1300px) {
+  .txt {
+    margin-left: 13vw;
+    margin-right: 13vw;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    font-size: 1.25em;
+  }
+  .txt {
+    margin-left: 16vw;
+    margin-right: 16vw;
+  }
+}
+
+@media (min-width: 1900px) {
+  .txt {
+    margin-left: 19vw;
+    margin-right: 19vw;
+  }
+}
+
+@media (min-width: 2100px) {
+  .txt {
+    margin-left: 21vw;
+    margin-right: 21vw;
+  }
+}

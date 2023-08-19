@@ -29,5 +29,7 @@
     "emmet.preferences": {},
     "emmet.showExpandedAbbreviation": "always",
     "editor.snippetSuggestions": "bottom",
-    "workbench.preferredLightColorTheme": "Solarized Light"
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "explorer.compactFolders": false,
+    "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace"
 }
