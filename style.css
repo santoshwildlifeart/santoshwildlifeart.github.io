@@ -161,7 +161,7 @@ a:hover, a:focus {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: center;
-  margin: 3.5em 0 5em;
+  margin: 4em 0 5em;
 }
 
 .seeall > a {
